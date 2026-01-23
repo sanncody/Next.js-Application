@@ -1,0 +1,12 @@
+GET http://localhost:3000/api/posts
+
+###
+POST http://localhost:3000/api/posts
+Content-Type: application/json
+
+{
+    "id": 120,
+    "title": "Post Title 120",
+    "body": "Post Body 120"
+}
+###
