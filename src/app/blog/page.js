@@ -3,6 +3,7 @@ import Posts from "./components/posts";
 
 // As this is a server component, so it can be made async. It renders only on server side
 export default async function BlogPage() {
+    console.log("Server component");
     /*const posts = [
         {
             id: 1,
